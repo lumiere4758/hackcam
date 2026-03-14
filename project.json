@@ -1,0 +1,619 @@
+{
+  "schematics": {
+    "fbc72488f3a44270860a67c4d0ee3a31": {
+      "name": "Schematic1",
+      "sheets": [
+        {
+          "name": "P1",
+          "id": 1,
+          "uuid": "193756c583774df786b84a9236ae570f"
+        }
+      ]
+    }
+  },
+  "pcbs": {
+    "724c837ae1e14980ac29e7b729cfc35d": "PCB1"
+  },
+  "panels": {},
+  "symbols": {
+    "1c8399c0c5ad49dd81a259fbfbbd2b68": {
+      "source": "d64bef11f98145cf8fe40c4da58953e0|4b4780a08a0b429d8cbf1d391594f0a7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "1.8 inch TFT LCD module",
+      "version": "1760703067",
+      "type": 2
+    },
+    "98257450ae3148629c2c614f1248ba22": {
+      "source": "e1c8100d198e414896981d69a8a83805|fa540d335b78400aadf79b10f6553ec7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "1x11 header through hole",
+      "version": "1773260086",
+      "type": 2
+    },
+    "cad3c35d80ac48a6a6ed28828e530d60": {
+      "source": "8a0b353904254bef8e7eeef92cd06282|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "100nF(104) ±10% 50V",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Capacitors\",\"Multilayer Ceramic Capacitors MLCC - SMD/SMT\"]",
+      "title": "CC0805KRX7R9BB104",
+      "version": "1726193578",
+      "type": 2
+    },
+    "ad0878ffbf164e1590350dca909e5fcb": {
+      "source": "383d752f5c9243c8a82a054d0337f883|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Drawing-Symbol_A4",
+      "version": "1734001722",
+      "type": 20
+    },
+    "9592365657fb426e8103380f1617f74e": {
+      "source": "4d9a7beb8a6e47e28eff1ed6599fa228|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Connectors\",\"Female Headers\"]",
+      "title": "MF127V-11-30-H41-0640",
+      "version": "1773240024",
+      "type": 2
+    },
+    "c060a1b99b89441bb8ea27e497ecb1b8": {
+      "source": "6abe1dddbd3443debe9ddd7e205967c4|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Switches\",\"Tactile Switches\"]",
+      "title": "TS-1088-AR02016",
+      "version": "1747675889",
+      "type": 2
+    },
+    "95771baf6b444932b86a88487cd8372a": {
+      "source": "2c9acb1786544bb58d1909c06df4b31e|b2760a616d484f928d08b650332728c1",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "XIAO ESP32S3",
+      "version": "1705409022",
+      "type": 2
+    },
+    "087f4fc581894c42976b0d50b75a49bc": {
+      "source": "9c04c99dc0f6486e83aa23425bc62acc|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "YZA-032-5.0W",
+      "version": "1756284323",
+      "type": 2
+    },
+    "4f489eaa6df4439a8e5db839a29a9657": {
+      "source": "4eff39f2ef7f44d7a0f9c9645fba922b|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Netport-OUT",
+      "version": "1649575491",
+      "type": 19
+    },
+    "8b0fc51e69d64ea38d6af3571c15b6b6": {
+      "source": "1c18ed5a06f64a07bdb5b0cf525b3d9e|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Ground-GND",
+      "version": "1649575362",
+      "type": 18
+    },
+    "b889ae25a17a40ab996a3e2e6e5f552f": {
+      "source": "b2c8c6f557e04232a1d5a274af351a7a|d67c5d76db284a5d8a4f4d239e3ffd7b",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Xiao ESP32S3",
+      "version": 1773387077613,
+      "type": 2
+    }
+  },
+  "footprints": {
+    "5d8c857a76fc436cb3f1b5fd5c3a4273": {
+      "title": "1.8_inch_TFT_LCD_module",
+      "source": "8ee718cb2d564b9484ead0330e7fa82a|4b4780a08a0b429d8cbf1d391594f0a7",
+      "version": "1760702209",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]"
+    },
+    "58d703e4e20a4bc3969054950cc8993e": {
+      "title": "C0805",
+      "source": "9376364c15854e01b3fabcf032810a22|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1720420805",
+      "type": 4,
+      "desc": ";0805;1206;1808;0603;插件;WLCSP-30(2.33x2.61);-;C0805;0805_C;SMD-0805C;CAP-2P;CAP CER 6.2PF 50V NP0 0805;CAP CER 10PF 50V C0G/NP0 0805;C 0805_M;2012;CAP0805-SMD-2P;CAP0805;AN0805",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"CAP-SMD\"]"
+    },
+    "2af5bcab86114d4a8a937fa6e9681583": {
+      "title": "HDR-TH_30P-P1.27-V-F_MF127V-11-30-H41-0640",
+      "source": "78d2043cb0ef4e0ebeabbb58590f0522|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1773132023",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"HDR-TH\"]"
+    },
+    "bbdab4c7a5b0429c8d13c9c6816b43fb": {
+      "title": "SW-SMD_L3.9-W3.0-P4.45",
+      "source": "2ec66f0773b84a52891163c4b1887931|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1766729599",
+      "type": 4,
+      "desc": "SMD;SMD,3x4mm;SW-SMD_L3.9-W3.0-P4.45;SW-SMD",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"SW-SMD\"]"
+    },
+    "33cf284419e941a6b7a039fc3f6c16f6": {
+      "title": "XIAO ESP32S3",
+      "source": "b235cab4b2834891a50cb1ec68f5f334|b2760a616d484f928d08b650332728c1",
+      "version": "1705408872",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]"
+    },
+    "239c7384aee145c9ad1ad4580aebd82a": {
+      "title": "SW-SMD_L6.0-W3.5-LS8.0",
+      "source": "5729801b7b4a4a3aa16c73e7213d9c47|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1649741644",
+      "type": 4,
+      "desc": ";SMD;SMD,3.5x6mm;SMD_L6.0-W3.5-LS8.0;SMD_KEY;SW-SMD;SW-SMD-2P;key_3x6_2P;SW-SMD_L6.0-W3.5-LS8.0;SMD,3.5x6.1mm;SMD,3.5X6mm;SW-SMD_;SMD,6x3.5mm",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"SW-SMD\"]"
+    },
+    "742d564ec2df4a4da915ea5ff60898f0": {
+      "title": "TFT display header 1x11",
+      "source": "83081793c4e14caaac096c5da66a7ebe|fa540d335b78400aadf79b10f6553ec7",
+      "version": "1773312588",
+      "type": 4,
+      "desc": "LETS JS HOPE THIS IS RIGHT XD",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"\",\"\"]"
+    },
+    "acb45f056f7b4ce394b390a3ad848588": {
+      "title": "xiao esp32s3",
+      "source": "538d8634a6a14d70ab1c9e530aeb93f6|d67c5d76db284a5d8a4f4d239e3ffd7b",
+      "version": 1773385535838,
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]"
+    }
+  },
+  "devices": {
+    "2e6c187ccd214bd08af70cbeaf31e649": {
+      "title": "1.8 inch TFT LCD module",
+      "attributes": {
+        "Name": "",
+        "Designator": "LCD?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "1c8399c0c5ad49dd81a259fbfbbd2b68",
+        "Footprint": "5d8c857a76fc436cb3f1b5fd5c3a4273",
+        "3D Model": "",
+        "3D Model Title": "",
+        "3D Model Transform": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "aac9b9b2c2294615840b6d038aa851b9|4b4780a08a0b429d8cbf1d391594f0a7",
+      "version": "1760703067",
+      "custom_tags": "[]"
+    },
+    "ebeb77815bfd4711bd8f7264ca172ab3": {
+      "title": "1x11 header through hole",
+      "attributes": {
+        "Name": "",
+        "Designator": "U?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "98257450ae3148629c2c614f1248ba22",
+        "Footprint": "",
+        "3D Model": "",
+        "3D Model Title": "",
+        "3D Model Transform": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "9b112dda26944ed18b64dc4d3decc95a|fa540d335b78400aadf79b10f6553ec7",
+      "version": "1773260086",
+      "custom_tags": "[]"
+    },
+    "272bae63339e4dac9bd473782ac4a857": {
+      "title": "CC0805KRX7R9BB104",
+      "attributes": {
+        "LCSC Part Name": "100nF ±10% 50V",
+        "Supplier Part": "C49678",
+        "Manufacturer": "YAGEO(国巨)",
+        "Manufacturer Part": "CC0805KRX7R9BB104",
+        "Supplier Footprint": "0805",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/CC0805KRX7R9BB104/50686.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "cad3c35d80ac48a6a6ed28828e530d60",
+        "Designator": "C?",
+        "Footprint": "58d703e4e20a4bc3969054950cc8993e",
+        "3D Model": "8c88e81f49c6409b980720ec8953afb6",
+        "3D Model Title": "C0805_L2.0-W1.3-H1.3",
+        "3D Model Transform": "78.74,51.181,0,0,0,0,0,0.0005,0",
+        "Value": "100nF",
+        "Tolerance": "±10%",
+        "Voltage Rating": "50V",
+        "Temperature Coefficient": "X7R",
+        "Name": "={Value}",
+        "Description": "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
+      },
+      "description": "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20221230/875A72A5AAB51E523BD59AF6A92BDCF6.jpg"
+      ],
+      "source": "1fcffeacebec4bcab600894243e1bb8c|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1663272050",
+      "custom_tags": "[\"Capacitors\",\"Multilayer Ceramic Capacitors MLCC - SMD/SMT\"]"
+    },
+    "563edbdea0dc44e19dab44360f9cca6b": {
+      "title": "Drawing-Symbol_A4",
+      "attributes": {
+        "@Project Name": "Project Name",
+        "@Page Count": "3",
+        "@Update Date": "2021.11.05",
+        "@Create Date": "2021.11.05",
+        "@Schematic Name": "Schematic Name",
+        "@Page No": "1",
+        "@Page Name": "P1",
+        "Company": "EasyEDA.com",
+        "Reviewed": "",
+        "Version": "V1.0",
+        "Page Size": "A4",
+        "Drawn": "",
+        "Name": "",
+        "@Create Time": "",
+        "@Update Time": "",
+        "Border": "1",
+        "Width": "1170",
+        "Height": "825",
+        "Region Start": "1",
+        "X Region Count": "6",
+        "Y Region Count": "4",
+        "Blade Width": "10",
+        "Color": "",
+        "Title Block Position": "3",
+        "Title Block": "1",
+        "@Board Name": "",
+        "Symbol": "ad0878ffbf164e1590350dca909e5fcb",
+        "Footprint": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "754952feec9e48d6afd574513e1ca00b|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1734001722",
+      "custom_tags": "[\"\",\"\"]"
+    },
+    "29042085acda4161bcfe84b627090d53": {
+      "title": "MF127V-11-30-H41-0640",
+      "attributes": {
+        "LCSC Part Name": "1x30P 间距:1.27mm 直插",
+        "Supplier Part": "C53026577",
+        "Manufacturer": "XFCN(兴飞)",
+        "Manufacturer Part": "MF127V-11-30-H41-0640",
+        "Supplier Footprint": "插件,P=1.27mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/MF127V-11-30-H41-0640/55965960.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "9592365657fb426e8103380f1617f74e",
+        "Designator": "U?",
+        "Footprint": "2af5bcab86114d4a8a937fa6e9681583",
+        "Holes Structure": "1x30P",
+        "Pitch": "1.27mm",
+        "Circular Hole / Square Hole": "Round Hole",
+        "Mounting Type": "Through Hole",
+        "Number of Rows": "1",
+        "Number of Positions": "30P",
+        "Current Rating": "1A",
+        "Voltage Rating (Max)": "60V",
+        "Holes Direction": "Top",
+        "Insulation Height": "4.1mm",
+        "Contact Material": "Copper alloy",
+        "Operating Temperature": "-40℃~+105℃",
+        "PIN Length": "2.3mm",
+        "Name": "={Manufacturer Part}",
+        "Description": "Holes Structure:1x30P Pitch:1.27mm Circular Hole / Square Hole:Round Hole Mounting Type:Through Hole Number of Rows:1 Number of Positions:30P Current Rating:1A Voltage Rating (Max):60V Holes Direction:Top Insulation Height:4.1mm Contact Material:Copper al"
+      },
+      "description": "Holes Structure:1x30P Pitch:1.27mm Circular Hole / Square Hole:Round Hole Mounting Type:Through Hole Number of Rows:1 Number of Positions:30P Current Rating:1A Voltage Rating (Max):60V Holes Direction:Top Insulation Height:4.1mm Contact Material:Copper al",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20251210/E83039F3AA80C83FB8A07622C3045B7D.jpg"
+      ],
+      "source": "66150a0dd38840138240be9a4c5a8c83|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1773241268",
+      "custom_tags": "[\"Connectors\",\"Female Headers\"]"
+    },
+    "0bb7e2df609e4dc2be476bfad9fb63d0": {
+      "title": "TS-1088-AR02016",
+      "attributes": {
+        "LCSC Part Name": "4*3*2mm 立贴 轻触开关",
+        "Supplier Part": "C720477",
+        "Manufacturer": "XUNPU(讯普)",
+        "Manufacturer Part": "TS-1088-AR02016",
+        "Supplier Footprint": "SMD,4x3mm",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/TS-1088-AR02016/763484.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "c060a1b99b89441bb8ea27e497ecb1b8",
+        "Designator": "SW?",
+        "Footprint": "bbdab4c7a5b0429c8d13c9c6816b43fb",
+        "3D Model": "305d1c5953df46c2be38ec48c2aa1876",
+        "3D Model Title": "SW-SMD_L3.9-W2.9-H2.0-LS4.8",
+        "3D Model Transform": "188.976,114.174,0,0,0,0,0,0,0",
+        "Circuit": "SPST",
+        "Actuator Style": "Round Button",
+        "Operating Force": "1.6N",
+        "Mounting Type": "Surface Mount,Vertical",
+        "Length": "4mm",
+        "Width": "3mm",
+        "Switch Height": "2mm",
+        "with Bracket": "Without Bracket",
+        "Contact Current": "50mA",
+        "Voltage Rating": "12V",
+        "Actuator/Cap Color": "Black",
+        "Termination Style": "SMD(SMT) Tab",
+        "Life": "100,000 Cycles",
+        "Operating Temperature": "-30℃~+80℃",
+        "Name": "={Manufacturer Part}",
+        "Description": "Circuit:SPST Actuator Style:Round Button Operating Force:1.6N Mounting Type:Surface Mount,Vertical Length:4mm Width:3mm Switch Height:2mm with Bracket:Without Bracket Contact Current:50mA Voltage Rating:12V Actuator/Cap Color:Black Termination Style:SMD(S"
+      },
+      "description": "Circuit:SPST Actuator Style:Round Button Operating Force:1.6N Mounting Type:Surface Mount,Vertical Length:4mm Width:3mm Switch Height:2mm with Bracket:Without Bracket Contact Current:50mA Voltage Rating:12V Actuator/Cap Color:Black Termination Style:SMD(S",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20250918/9AF53489CAAD171E3A387F9DD9E1D50B.jpg"
+      ],
+      "source": "53ec5e112a3f4d35b9b8aafef6c706d7|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1672393206",
+      "custom_tags": "[\"Switches\",\"Tactile Switches\"]"
+    },
+    "e29d36098ee14ce098b9317d1c1d1abf": {
+      "title": "XIAO ESP32S3",
+      "attributes": {
+        "Name": "",
+        "Designator": "U?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "95771baf6b444932b86a88487cd8372a",
+        "Footprint": "33cf284419e941a6b7a039fc3f6c16f6",
+        "3D Model": "",
+        "3D Model Title": "",
+        "3D Model Transform": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "a9bf59c9a95846e2be59a7c9dd7d23a5|b2760a616d484f928d08b650332728c1",
+      "version": "1705409021",
+      "custom_tags": "[]"
+    },
+    "c951db86f6ec44e186008ae833f194b6": {
+      "title": "YZA-032-5.0W",
+      "attributes": {
+        "LCSC Part Name": "YIZHI(逸致) YZA-032-5.0W 3*6*5MM贴片白色2脚",
+        "Supplier Part": "C49108628",
+        "Manufacturer": "YIZHI(逸致)",
+        "Manufacturer Part": "YZA-032-5.0W",
+        "Supplier Footprint": "-",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/YZA-032-5.0W/51487245.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "087f4fc581894c42976b0d50b75a49bc",
+        "Designator": "U?",
+        "Footprint": "239c7384aee145c9ad1ad4580aebd82a",
+        "3D Model": "dd71df18030a4c20be9f3e7e75ff334b",
+        "3D Model Title": "SW-SMD_L6.0-W3.5-H5.0-P7.5-LS8.0",
+        "3D Model Transform": "314.96,137.795,0,0,0,0,0,0,0",
+        "PressForce": "250gf",
+        "Switch Size": "3*6*5.0MM",
+        "Installation Method": "Front-Press",
+        "RatedCurrent": "50mA",
+        "ButtonShape": "Rectangle button",
+        "Circuit": "SPST",
+        "Type": "Tactile Switch",
+        "Name": "={Manufacturer Part}",
+        "Description": "PressForce:250gf Switch Size:3*6*5.0MM Installation Method:Front-Press RatedCurrent:50mA ButtonShape:Rectangle button Circuit:SPST Type:Tactile Switch"
+      },
+      "description": "PressForce:250gf Switch Size:3*6*5.0MM Installation Method:Front-Press RatedCurrent:50mA ButtonShape:Rectangle button Circuit:SPST Type:Tactile Switch",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20250623/9A63C15E9E057F46756DF1057DA8B404.jpg"
+      ],
+      "source": "c14aba584b5d4b19a2df5c62769c1be4|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1756285216",
+      "custom_tags": "[]"
+    },
+    "4e34962991e74ab89d5ed47d71ba0442": {
+      "title": "Netport-OUT",
+      "attributes": {
+        "Symbol": "4f489eaa6df4439a8e5db839a29a9657",
+        "Footprint": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "d3f8509c9aa24ff4941c9d84243e9d34|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1649575496",
+      "custom_tags": "[]"
+    },
+    "cca686c7d2a846d995aaa2b5f4c1298d": {
+      "title": "Ground-GND",
+      "attributes": {
+        "Symbol": "8b0fc51e69d64ea38d6af3571c15b6b6",
+        "Footprint": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "2e4e71fea06848c9a86eef0ed6338204|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1649575370",
+      "custom_tags": "[]"
+    },
+    "5ce8c851910e4e2eaa1125f99fa42d0a": {
+      "title": "Xiao ESP32S3",
+      "attributes": {
+        "Name": "",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Description": "",
+        "Symbol": "b889ae25a17a40ab996a3e2e6e5f552f",
+        "Footprint": "acb45f056f7b4ce394b390a3ad848588",
+        "3D Model": "",
+        "3D Model Title": "",
+        "3D Model Transform": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "bbc844b026a5409199aa5d83c48c01e3|d67c5d76db284a5d8a4f4d239e3ffd7b",
+      "version": 1773387077340,
+      "custom_tags": "[\"MCU\"]"
+    }
+  },
+  "boards": {
+    "Board1": {
+      "schematic": "fbc72488f3a44270860a67c4d0ee3a31",
+      "pcb": "724c837ae1e14980ac29e7b729cfc35d"
+    }
+  },
+  "config": {
+    "title": "camhack",
+    "cbbProject": false,
+    "defaultSheet": "563edbdea0dc44e19dab44360f9cca6b",
+    "editorVersion": "2.2.46.11"
+  }
+}
